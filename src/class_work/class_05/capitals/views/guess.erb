@@ -1,0 +1,15 @@
+<h1>What is the capital of <%= @state %> ?</h1>
+
+<p>
+<a href='/make_answer?city=Olympia&state=<%= @state %>'>Olympia</a>
+</p>
+
+# We had to add the state because the "State of the user changed"
+<p>
+<a href='/make_answer?city=Sacramento&state=<%= @state %>'>Sacramento</a>
+</p>
+
+<p>
+<a href='/make_answer?city=Salem&state=<%= @state %>'>Salem</a>
+</p>
+
